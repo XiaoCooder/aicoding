@@ -1,4 +1,4 @@
-# AICoding
+# AI Coding
 
 面向实验室学习与科研需求的 AI coding（Vibe Coding）/ Coding Agent 资源归集项目。
 
