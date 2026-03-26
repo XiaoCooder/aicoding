@@ -1,0 +1,30 @@
+# Skills
+
+本页用于整理与 AI coding / vibe coding / agent 相关的 skill、workflow、prompt 模板和实践经验。
+
+## 本页建议覆盖
+
+- skill 设计案例
+- workflow 组织方式
+- 常见 prompt pattern
+- 人机协作实践经验
+
+## 推荐组织方式
+
+### 1. 可复用 skill
+
+整理可迁移、可复用的 skill 结构与设计思路。
+
+### 2. 工作流与协作方式
+
+整理适合科研与工程任务的任务拆解、执行和复盘方式。
+
+### 3. 实践建议
+
+记录在真实使用中有效的 prompt、约束与习惯。
+
+## 后续可补充内容
+
+- 高质量开源 skills 索引
+- workflow 示例
+- 不同任务场景下的实践建议
