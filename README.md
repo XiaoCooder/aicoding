@@ -72,6 +72,15 @@ aicoding/
 3. 然后了解 [benchmarks.md](docs/benchmarks.md) 和 [papers.md](docs/papers.md)
 4. 最后结合 [research-topics.md](docs/research-topics.md) 思考潜在兴趣点
 
+### 对 AI Coding 爱好者（包括非技术人员）
+
+如果你没有编程背景，但对"用 AI 写代码"这件事感兴趣，借助AI能力也完全可以进入这个领域：
+
+1. 先阅读 [getting-started.md](docs/getting-started.md)，理解 AI coding、Vibe Coding 等核心概念
+2. 浏览 [websites.md](docs/websites.md)，了解主流模型入口和学习课程
+3. 尝试 [tools.md](docs/tools.md) 中的直接工具和辅助工具
+4. （可选）感兴趣时再看 [papers.md](docs/papers.md) 中的综述论文，建立更完整的认知
+
 ### 对工程实践导向的同学
 
 建议重点使用：
