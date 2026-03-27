@@ -49,20 +49,37 @@
 - [Claude Relay Service](https://github.com/Wei-Shaw/claude-relay-service)
   一个面向 Claude 访问场景的专项 relay 服务，强调多账户管理、Claude API 中转与自建部署；其 README 中也提示新项目可优先关注 `sub2api` 这一代方案。
 
-### 4. 提示词与内容辅助
+### 4. 第三方中转站
+
+以下是国内外主流的大模型 API 中转/聚合平台，提供统一接口访问多家模型，通常按 token 计费，无需自建网关。
+
+- [OpenRouter](https://openrouter.ai/)
+  目前最主流的海外中转平台，统一 OpenAI 兼容接口接入 Claude、GPT、Gemini、Llama 等数百个模型，按量计费，支持 fallback 和模型路由。
+- [硅基流动 SiliconFlow](https://siliconflow.cn/)
+  国内主流中转平台，接入通义、GLM、DeepSeek、Llama 等模型，提供 OpenAI 兼容 API，部分开源模型有免费额度。
+- [DeepSeek 开放平台](https://platform.deepseek.com/)
+  DeepSeek 官方 API 平台，提供 DeepSeek-V3、DeepSeek-R1 等模型的直接接入，价格较低，国内访问友好。
+
+### 5. 提示词与内容辅助
 
 - [PromptUp](https://promptup.net/)
   一个提示语收集与浏览网站，适合在需要快速参考 prompt 写法、任务模板和表达方式时作为辅助入口使用。
 
 ## 科研工具
 
-### 1. 论文发现、阅读与管理
+### 1. 论文发现
 
-> 以下工具的详细说明见 [papers.md](papers.md) 的”论文入口工具”部分，此处仅做索引。
+- [Hugging Face Papers](https://huggingface.co/papers)
+  适合快速发现最新 AI 论文，按社区讨论热度排序，更新频率高。
 
-- [Zotero](https://www.zotero.org/) — 文献管理与引用
-- [Hugging Face Papers](https://huggingface.co/papers) — 最新论文发现
-- [alphaXiv](https://www.alphaxiv.org/) — 论文阅读与社区讨论
+### 2. 文献阅读与管理
+
+- [Zotero](https://www.zotero.org/)
+  常用的文献管理工具，适合论文收藏、分类、批注和引用管理，尤其适合实验室长期积累阅读清单与专题资料。
+- [alphaXiv](https://www.alphaxiv.org/)
+  在 arXiv 论文页面上叠加社区批注和讨论，适合在阅读时获取他人观点和重点标注。
+- [NotebookLM](https://notebooklm.google.com/)
+  Google 提供的 AI 文献阅读助手，可以上传论文 PDF 后进行问答、摘要和交叉对比，适合快速理解长论文或同时消化多篇相关工作。
 
 ## 后续可补充内容
 

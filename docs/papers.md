@@ -4,14 +4,12 @@
 
 ## 论文入口工具
 
-> 此处为这些工具的主页面，[tools.md](tools.md) 的科研工具部分有交叉索引。
+> 论文发现与文献管理工具的详细说明见 [tools.md](tools.md) 的科研工具部分，此处仅做索引。
 
-- [Hugging Face Papers](https://huggingface.co/papers)
-  适合快速发现最新 AI 论文与讨论热度。
-- [alphaXiv](https://www.alphaxiv.org/)
-  适合在阅读 arXiv 论文时结合社区批注和讨论。
-- [Zotero](https://www.zotero.org/)
-  适合做论文收藏、分类、批注和引用管理，尤其适合实验室长期积累阅读清单与专题资料。
+- [Hugging Face Papers](https://huggingface.co/papers) — 最新论文发现
+- [Zotero](https://www.zotero.org/) — 文献管理与引用
+- [alphaXiv](https://www.alphaxiv.org/) — 论文阅读与社区讨论
+- [NotebookLM](https://notebooklm.google.com/) — AI 辅助论文阅读
 
 ## 本页建议覆盖
 
