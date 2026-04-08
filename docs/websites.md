@@ -20,6 +20,8 @@
   Anthropic 提供的免费课程，适合作为实验室成员第一次系统接触 Claude 使用方式的入口。
 - [Claude Code Book](https://github.com/lintsinghua/claude-code-book)
   Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。
+- [LLM](https://www.bilibili.com/video/BV1Bq421A74G?t=27.8)
+  吴恩达大模型系列课程。
 
 ### 3. 最佳实践
 
