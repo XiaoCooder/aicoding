@@ -30,8 +30,29 @@ If explicit subagents are not available in the current environment, emulate the 
 - there is meaningful experimental, benchmark, or case-study evidence
 - public signal is available when possible, such as reactions, discussion, or repository stars
 
-6. Score papers from 1 to 5.
-Use topical fit, representativeness, method clarity, evidence strength, practical relevance to AI Coding or Coding Agent research, and public signal. Public signal is secondary and must not dominate the score.
+6. Score papers using the absolute scoring standard below.
+The same standard applies everywhere — monthly reports and docs/papers.md. There is no separate "monthly pool" scale versus "cross-year index" scale. Public signal is secondary and must not dominate the score.
+
+Absolute scoring rubric (anchor papers are the calibration reference):
+
+★★★★★ — Paradigm-defining. Introduces a new paradigm, core concept, or evaluation standard that the entire field subsequently adopts. "You cannot understand this area without reading this paper." Influence is directly traceable across large volumes of follow-on work.
+Anchors: ReAct (ICLR2023), SWE-bench (ICLR2024), SWE-agent (NeurIPS2024), Agentless (FSE2025).
+Expect 0–1 per month; most months 0.
+
+★★★★✩ — Field-shaping. Makes a major methodological contribution within an established paradigm; widely cited or adopted. The key reference for a specific sub-area.
+Anchors: CoT (NeurIPS2022), Reflexion (NeurIPS2023), CodeAct (ICML2024), MetaGPT (ICLR2024), Lost in the Middle (TACL2024).
+
+★★★★☆ — Significant contribution. Solid methodology, strong evidence, fills a specific knowledge gap or provides a useful framework. Recommended reading for its sub-area. May be limited by one or more of: not Coding-Agent-specific, applies existing ideas, too new for community validation.
+Anchors: OpenHands (ICLR2025), Toolformer (NeurIPS2023), Self-Debug (CoRR2023), RepoCoder (EMNLP2023).
+
+★★★✩☆ — Selective reading. Executes well on a narrow problem, relevant to specific research threads, but limited methodological novelty or broad applicability.
+
+★★★☆☆ — Conditional reference. Historical or directional value, but narrow scope, unvalidated methodology, or superseded by later work.
+Anchors: AgentCoder (CoRR2023), Vibe Code Bench (CoRR2026).
+
+★★☆☆☆ and below — Low priority. Weak connection to AI Coding / Coding Agent, or lacks technical depth and empirical support.
+
+Score on: paradigm/methodological influence · topical fit · method clarity and evidence strength · practical value for system building or evaluation design · community validation (secondary, does not dominate).
 
 7. Write or update docs/monthly/YYYY-MM.md.
 The filename is determined by the investigated month, not the execution date. If the month file already exists, update it instead of creating a duplicate. Keep the report concise, scannable, and evidence-backed.
@@ -44,12 +65,5 @@ Default threshold is score 4 to 5. When more than 10 candidates qualify, keep pa
 
 When writing recommendation text for docs/papers.md, use broad time-horizon framing, not month-local language such as "本月最重要". The index spans multiple years and entries should read as durable references.
 
-10. Recalibrate scores when writing to docs/papers.md.
-Monthly scores are calibrated within the current month's candidate pool and will systematically run high. When syncing to docs/papers.md, re-score relative to the full cross-year index:
-- Reserve ★★★★★ for papers with influence comparable to SWE-bench, HumanEval, or SWE-agent. Expect 0–1 per month.
-- Use ★★★★☆ for high-quality work that is directionally correct with strong evidence but whose influence is still establishing itself.
-- Use ★★★☆☆ only with explicit justification (time-sensitive snapshots, narrow domains).
-- A paper scored ★★★★★ in the monthly report should default to ★★★★☆ in docs/papers.md unless cross-year influence is clearly justified.
-
-11. Prefer fewer, better papers.
+10. Prefer fewer, better papers.
 If the month has limited high-quality results, say so explicitly rather than padding the report with weakly related work.
