@@ -23,12 +23,9 @@ Superpowers 是一个面向 coding agents 的 skills 框架和开发方法论，
 
 如果实验室后续想研究”如何把 Coding Agent 从能写代码，提升到更稳定地完成工程任务”，Superpowers 很值得跟踪。
 
-### 3. PromptPilot
+### 3. 其他收录
 
-- [PromptPilot](https://promptpilot.volcengine.com/home?workspaceId=ws-20260408102547-h6a9V)
-
-PromptPilot 是字节跳动火山引擎提供的 AI 提示词管理平台，旨在帮助用户创建、优化和管理 AI 提示词，提供提示词版本管理、测试和协作功能。适合只有一个简单想法但不清楚如何实现的初步构想阶段使用。
-每周提供免费额度。
+- _待补充_
 
 ## 本页建议覆盖
 
