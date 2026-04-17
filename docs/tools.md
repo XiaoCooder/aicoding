@@ -48,7 +48,7 @@
 ### 1. 终端与会话管理
 
 - `tmux`
-  对长期运行 agent、远程服务器开发、多会话协作非常实用。至少建议掌握：`tmux new -s <name>`、`tmux attach -t <name>`、`tmux ls`、`Ctrl-b d`、`tmux kill-session -t <name>`。
+  对长期运行 agent、远程服务器开发、多会话协作非常实用。建议至少掌握：`tmux new -s <name>`、`tmux attach -t <name>`、`tmux ls`、`Ctrl-b d`、`tmux kill-session -t <name>`。
 
 ### 2. 远程与移动端协作
 
