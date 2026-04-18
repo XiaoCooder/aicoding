@@ -24,7 +24,18 @@
   适合学习 LLM application、RAG、Agent 和 workflow 的基本构建方式。
 - [LLM](https://www.bilibili.com/video/BV1Bq421A74G?t=27.8)
   吴恩达大模型系列课程。
+  
+### 3. 官方文档与开发平台
 
+- [Anthropic Docs](https://docs.anthropic.com/)  
+  Anthropic 官方文档，包含 Claude API、工具调用、提示词与开发实践，是 Claude 生态最重要的一手资料入口。
+- [OpenAI Platform Docs](https://platform.openai.com/docs/)  
+  OpenAI 官方开发文档，适合查看 API、模型说明、工具调用与示例。
+- [Google AI for Developers / Gemini Docs](https://ai.google.dev/)  
+  Google 官方开发者入口，适合查看 Gemini API、SDK 与多模态能力说明。
+- [GitHub Copilot Docs](https://docs.github.com/en/copilot)  
+  GitHub Copilot 官方文档，适合查看 IDE 集成、CLI、企业配置与使用说明。
+  
 ### 4. 最佳实践
 
 - [Vibe Coding 指南（中文）](https://github.com/tukuaiai/vibe-coding-cn)
@@ -35,7 +46,11 @@
   OpenAI 官方示例与最佳实践资料，适合参考 API 调用、工作流设计、工具使用和工程化样例。
 - [GitHub Copilot Resources](https://resources.github.com/learn/pathways/copilot/)  
   适合查看真实开发场景中的 Copilot 使用方式、最佳实践和企业落地经验。
-
+- [LangChain Docs](https://docs.langchain.com/)  
+  LangChain 官方文档，适合参考 LLM application、RAG、Agent 和 workflow 的常见工程模式。
+- [LangGraph Docs](https://docs.langchain.com/langgraph/)  
+  LangGraph 官方文档，适合参考多步骤 agent、状态管理与工作流编排的实践方式。
+  
 ## 本页建议覆盖
 
 - 官方主页
