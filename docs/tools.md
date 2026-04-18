@@ -17,7 +17,7 @@
 
 - [Claude Code](https://claude.com/product/claude-code)<br>
   Anthropic 的终端式 coding agent，强调本地运行、权限确认、与 IDE 和工作流结合。<br>
-  **使用门槛：** 低。只需具备基础终端操作能力；需支付 Anthropic API 费用。<br>
+  **使用门槛：** 中。只需具备基础终端操作能力。<br>
   **适用场景：** 快速重构整个代码库、自动修复测试用例、在不离开终端的情况下进行全库搜索与修改。
 - [Codex](https://openai.com/codex/)<br>
   OpenAI 的 AI coding partner，强调端到端完成工程任务，适合放在当前主流 Coding Agent 工具链里持续跟踪。<br>
@@ -26,7 +26,7 @@
 - [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli)<br>
   GitHub 提供的命令行 Copilot 入口，适合和 GitHub 工作流、autopilot 模式、插件生态一起看。<br>
   对学生/个人用户而言，GitHub Copilot Pro 的常见订阅价格约为 10 美元/月，覆盖 GPT 和 Claude 最新模型，每月可进行 300 次请求（单次对话内容token不计上限），性价比较高。<br>
-  **使用门槛：** 极低。适合所有开发者，只需订阅 Copilot 服务，对习惯命令行的人极其友好。<br>
+  **使用门槛：** 低。适合所有开发者，只需订阅 Copilot 服务，对习惯命令行的人极其友好。<br>
   **适用场景：** 忘记 Git 命令或复杂的 Shell 指令时，通过自然语言快速执行系统操作。
 - [OpenCode](https://opencode.ai)<br>
   一款开源的终端 AI 编码助手。支持 GPT、Claude、Gemini、GLM 等多种模型；提供 Plan（仅分析）和 Build（实际修改）双模式；可集成到 VS Code、Cursor 等 IDE，并支持 MCP 扩展。分按量付费，Go 计划，自带模型三种付费模式。其中Go计划每月10\$（首月5\$），分每5h/周/月上限，不同模型可用额度不同，总体可适应中等强度开发。<br>
@@ -47,10 +47,6 @@
   AI 原生 IDE，其“Composer”模式支持跨文件同时编辑，能深度理解整个代码库的上下文。<br>
   **使用门槛：** 极低。开箱即用，VS Code 用户可无缝迁移。<br>
   **适用场景：** “Vibe Coding”的主战场。适合需要频繁跨文件修改、从零开始构建复杂功能模块的日常开发。
-- [Windsurf](https://codeium.com/windsurf)<br>
-  Codeium 推出的下一代 IDE，其核心“Flow”特性让 AI 代理能像人类开发者一样，在理解代码、运行终端和修改文件之间无缝切换。<br>
-  **使用门槛：** 极低。强调“流式”体验，适合追求极致流畅感的开发者。<br>
-  **适用场景：** 当你需要 Agent 拥有极高的自主权（如自动运行测试、自动根据报错纠错）而不仅是代码补全时。
 - [Trae](https://www.trae.ai/)<br>
   字节跳动推出的 AI 驱动 IDE，强调自适应学习和高效的代理模式，提供类似 Cursor 的流畅体验且目前对开发者非常友好。<br>
   **使用门槛：** 极低。国内开发者友好，网络环境要求相对宽松。<br>
@@ -59,7 +55,11 @@
   Google 推出的智能体 IDE（Agentic IDE），基于 VS Code 分支构建，不仅支持绝大部分 VS Code 插件，且支持多智能体并行协作、内置浏览器自动化测试、Artifacts 交付物与录屏验证。内置 Gemini 3.1 Pro，Claude Sonnet 4.5，Claude Opus 4.6 等模型。仅需登录谷歌账号即可使用，额度每周刷新，适合中等强度的开发工作。<br>
   **使用门槛：** 中。全新的三窗格交互逻辑需要一定的学习适应成本。网络环境要求高。<br>
   **适用场景：** 处理极其复杂的系统性工程，通过多个异步 Agent 并行处理“规划-编码-测试”全链路。
-
+- [Windsurf](https://codeium.com/windsurf)<br>
+  Codeium 推出的下一代 IDE，其核心“Flow”特性让 AI 代理能像人类开发者一样，在理解代码、运行终端和修改文件之间无缝切换。<br>
+  **使用门槛：** 极低。强调“流式”体验，适合追求极致流畅感的开发者。<br>
+  **适用场景：** 当你需要 Agent 拥有极高的自主权（如自动运行测试、自动根据报错纠错）而不仅是代码补全时。
+  
 ### 4. 轻量级/插件级 Agent
 
 - [Roo Code (原 Cline)](https://github.com/RooCode/Roo-Code)<br>
@@ -103,7 +103,7 @@
 ### 1. 终端与会话管理
 
 - [tmux](https://github.com/tmux/tmux)<br>
-  对长期运行 agent、远程服务器开发、多会话协作非常实用。至少建议掌握：`tmux new -s <name>`、`tmux attach -t <name>`、`tmux ls`、`Ctrl-b d`、`tmux kill-session -t <name>`。<br>
+  对长期运行 agent、远程服务器开发、多会话协作非常实用。建议至少掌握：`tmux new -s <name>`、`tmux attach -t <name>`、`tmux ls`、`Ctrl-b d`、`tmux kill-session -t <name>`。<br>
   **使用门槛：** 低。需记快捷键。<br>
   **适用场景：** 远程服务器跑 Agent、多任务终端并排监控。
 - [Warp](https://www.warp.dev/)<br>
