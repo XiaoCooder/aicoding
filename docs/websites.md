@@ -36,8 +36,14 @@
   
 ### 4. 最佳实践
 
+- [Vibe Coding 指南（中文）](https://github.com/tukuaiai/vibe-coding-cn)
+  一个偏中文实践导向的 Vibe Coding 指南仓库，整理了入门路径、方法论、提示词、案例与工作流，适合作为持续参考的实践资料。
+- [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/overview)  
+  适合理解 Claude 在编码、写作、分析等任务中的提示词组织方式。
 - [OpenAI Cookbook](https://cookbook.openai.com/)  
   OpenAI 官方示例与最佳实践资料，适合参考 API 调用、工作流设计、工具使用和工程化样例。
+- [GitHub Copilot Resources](https://resources.github.com/learn/pathways/copilot/)  
+  适合查看真实开发场景中的 Copilot 使用方式、最佳实践和企业落地经验。
 - [LangChain Docs](https://docs.langchain.com/)  
   LangChain 官方文档，适合参考 LLM application、RAG、Agent 和 workflow 的常见工程模式。
 - [LangGraph Docs](https://docs.langchain.com/langgraph/)  
