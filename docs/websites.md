@@ -16,6 +16,18 @@
 - [Gemma 4](https://deepmind.google/models/gemma/gemma-4/)  
   Google DeepMind 提供的 Gemma 4 官方页面，适合了解 Gemma 系列开放模型的能力定位、使用方式和相关资源入口，也可作为参考 Google 侧开源模型实践的起点。
 
+### 2. 官方文档与开发平台
+- [Anthropic Docs](https://docs.anthropic.com/)  
+  Anthropic 官方文档，包含 Claude API、工具调用、提示词、Agent 与 Claude Code 相关资料，是 Claude 生态最重要的一手资料入口。
+- [OpenAI Platform Docs](https://platform.openai.com/docs/)  
+  OpenAI 官方开发文档，适合查看 API、Agents/Responses、工具调用、模型说明和示例。
+- [Google AI for Developers / Gemini Docs](https://ai.google.dev/)  
+  Google 官方开发者入口，适合查看 Gemini API、示例、SDK 和多模态能力说明。
+- [OpenRouter Docs](https://openrouter.ai/docs)  
+  常用模型聚合调用平台文档，适合比较不同模型、快速切换模型进行 coding 场景实验。
+- [GitHub Copilot Docs](https://docs.github.com/en/copilot)  
+  GitHub Copilot 官方文档，适合了解 IDE 集成、CLI、代码补全、Chat、Agent 工作流和企业配置。
+
 ### 2. 学习课程
 
 - [DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/)  
