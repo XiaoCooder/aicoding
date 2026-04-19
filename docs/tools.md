@@ -77,6 +77,8 @@
 
 ## 扩展工具
 
+- [Happycapy](https://happycapy.ai/app)
+  happyCapy 是一类云端 AI coding / sandbox 工具，提供与本地 CLI agent 不同的使用形态，适合从“在线开发环境中的 AI 协作”角度做补充体验。它值得关注的点在于将编码、运行与交互集中在云端环境中，体现了 AI coding 工具的另一种产品路径。
 - [Mem0](https://github.com/mem0ai/mem0)<br>
   为 AI agent 提供持久化记忆层，支持跨会话的上下文记忆管理，适合在 Coding Agent 工作流中保持项目理解的连续性。<br>
   **使用门槛：** 中高。需集成到 Agent 的代码逻辑中，适合开发者。<br>
