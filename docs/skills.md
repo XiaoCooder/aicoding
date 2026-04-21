@@ -2,7 +2,8 @@
 
 本页用于整理与 AI coding（Vibe Coding）/ Coding Agent 相关的 skill、workflow、prompt 模板和实践经验。
 
-## 当前收录
+## 实用 Skills 推荐
+以下从功能覆盖面、社区活跃度、适用场景广度三个维度，精选出 20 个最实用的 skills/工具集，适合 Agent 开发方向的研究者和工程人员使用。
 
 ### 1. Skill Creator
 
@@ -54,6 +55,132 @@ Superpowers 是一个面向 coding agents 的 skills 框架和开发方法论，
 处理 `.xlsx`、`.xlsm`、`.csv`、`.tsv` 等表格文件：**新建**带公式和格式的电子表格、**编辑**已有文件（添加列、修改公式、调整格式、制作图表）、**清洗**混乱的表格数据。核心原则是**始终使用 Excel 公式而非在 Python 中硬编码计算值**，确保表格在数据更新后能自动重算。内置金融建模规范（蓝色=输入值、黑色=公式、绿色=跨表引用；货币/百分比/倍数的格式标准；假设单元格与公式分离）。底层使用 `pandas` 做数据分析、`openpyxl` 做格式与公式操作，并通过 LibreOffice 自动重算公式并检验 `#REF!`、`#DIV/0!` 等错误。
 
 > 触发条件：用户提到 `.xlsx`、`.csv` 等表格文件，或要求以电子表格为最终输出（数据分析、财务模型、预算表等）。
+
+
+### 5. Claude Scientific Skills
+- [GitHub](https://github.com/K-Dense-AI/claude-scientific-skills)
+- **一句话**：面向科研、数据分析、金融、工程计算等场景的即用型 skills 套件
+- **推荐理由**：对科研方向的硕士尤其友好，覆盖论文写作、数据分析、实验管理等场景
+
+### 6. Context Engineering Kit
+- [GitHub](https://github.com/NeoLabHQ/context-engineering-kit)
+- **一句话**：精选的高级上下文工程技术集合，以最小 token 开销提升 agent 输出质量
+- **推荐理由**：Context Engineering 是当前 Agent 研究的热点方向，该仓库提供了可直接实践的技术方案
+
+### 7. Trail of Bits Security Skills
+- [GitHub](https://github.com/trailofbits/skills)
+- **一句话**：十余个安全审计专项 skills，集成 CodeQL、Semgrep、变体分析、差异代码审查等
+- **推荐理由**：来自顶级安全公司 Trail of Bits，是学习"Agent 驱动安全审计"的最佳实践案例
+
+### 8. Everything Claude Code
+- [GitHub](https://github.com/affaan-m/everything-claude-code)
+- **一句话**：涵盖 Claude Code 核心工程领域几乎所有方面的资源集合，每个条目都有独立参考价值
+- **推荐理由**：一站式资源库，适合快速了解 Claude Code 的全部能力边界
+
+### 9. Fullstack Dev Skills
+- [GitHub](https://github.com/jeffallan/claude-skills)
+- **一句话**：65 个全栈开发专项 skills，覆盖前后端、数据库、DevOps，附带 Jira/Confluence 集成命令
+- **推荐理由**：全栈开发的"瑞士军刀"，数量多且每个 skill 都经过实际项目验证
+
+### 10. cc-devops-skills
+- [GitHub](https://github.com/akin-ozer/cc-devops-skills)
+- **一句话**：极其详细的 DevOps skills，支持多云平台 IaC 代码生成、验证、部署
+- **推荐理由**：Agent + DevOps 的深度结合案例，展示了 agent 在基础设施自动化中的潜力
+
+
+### 11. Claude Code System Prompts
+- [GitHub](https://github.com/Piebald-AI/claude-code-system-prompts)
+- **一句话**：完整收录 Claude Code 的 system prompt、子 agent prompt、工具 prompt，按版本持续更新
+- **推荐理由**：**必读资源**——理解 Claude Code 内部工作机制的最佳途径，对 Agent 系统设计研究极具参考价值
+
+### 12. Claude Code Pro
+- [GitHub](https://github.com/maxritter/claude-codepro)
+- **一句话**：专业开发环境配置，包含 spec-driven workflow、TDD 强制执行、跨会话记忆、语义搜索、质量 hooks
+- **推荐理由**：展示了如何通过 hooks + skills 构建完整的 agent 开发规范体系
+
+### 13. Agentic Workflow Patterns
+- [GitHub](https://github.com/ThibautMelen/agentic-workflow-patterns)
+- **一句话**：用 Mermaid 图梳理的 agentic 模式集合：子 agent 编排、渐进式 skills、并行工具调用、Master-Clone 架构等
+- **推荐理由**：以可视化方式呈现 agent 设计模式，非常适合教学和论文写作参考
+
+
+
+---
+以下仓库是 Claude Code Skills 生态中最活跃、内容最丰富的资源索引：
+
+### 综合 Awesome 列表
+
+| 仓库 | 说明 |
+|------|------|
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | **最全面的精选列表**，涵盖 skills、agents、plugins、hooks、slash-commands、agent orchestrators 等，分类清晰、质量把控严格 |
+| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | 精选 Claude Skills 和工具列表，聚焦 Claude Code 的自定义工作流 |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 按场景分类的实用 skills 列表：文档处理、开发工具、数据分析、商业与营销等 |
+
+### Skills 库与工具包
+
+| 仓库 | 说明 |
+|------|------|
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 248 个生产级 skills，兼容 11 种 AI 编码工具（Cursor、Codex、Gemini CLI 等），覆盖工程、营销、合规等 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | 216+ slash commands、12 skills、54 agents 的综合开发工具包 |
+
+### Skills 市场
+
+| 仓库 | 说明 |
+|------|------|
+| [aiskillstore/marketplace](https://github.com/aiskillstore/marketplace) | AI Skills 官方市场，遵循 Agent Skills 规范，支持发现、安装和管理 |
+| [terrylica/cc-skills](https://github.com/terrylica/cc-skills) | Claude Code Skills 市场：DevOps、ClickHouse、语义版本化等专项 skills |
+
+### 相关网站
+
+| 网站 | 说明 |
+|------|------|
+| [aitmpl.com](https://aitmpl.com) | 在线浏览和发现 Claude Code skills 的网站 |
+
+---
+
+
+## 常用 Slash Commands 速查
+
+以下是在各类项目中高频出现的 slash commands，可作为日常开发的快速参考：
+
+### 版本控制
+| 命令 | 说明 | 来源 |
+|------|------|------|
+| `/commit` | 使用 Conventional Commit 格式（含 emoji）创建提交 | [evmts/tevm-monorepo](https://github.com/evmts/tevm-monorepo) |
+| `/create-pr` | 完整 PR 工作流：创建分支、提交、格式化、提交 PR | [toyamarinyon/giselle](https://github.com/toyamarinyon/giselle) |
+| `/fix-issue` | 分析 GitHub Issue 并实现修复，包含测试验证 | [metabase/metabase](https://github.com/metabase/metabase) |
+| `/fix-pr` | 获取并修复 PR 中的未解决 review 意见 | [metabase/metabase](https://github.com/metabase/metabase) |
+
+### 开发流程
+| 命令 | 说明 | 来源 |
+|------|------|------|
+| `/tdd` | 测试驱动开发引导：Red-Green-Refactor 纪律 + git 工作流 | [zscott/pane](https://github.com/zscott/pane) |
+| `/check` | 全面的代码质量和安全检查 | [rygwdn/slack-tools](https://github.com/rygwdn/slack-tools) |
+| `/optimize` | 分析代码性能瓶颈并提出优化建议 | [to4iki/ai-project-rules](https://github.com/to4iki/ai-project-rules) |
+| `/context-prime` | 为 Claude 加载项目上下文：仓库结构、开发环境、协作参数 | [elizaOS/elizaos.github.io](https://github.com/elizaOS/elizaos.github.io) |
+
+### 文档与规划
+| 命令 | 说明 | 来源 |
+|------|------|------|
+| `/docs` | 根据代码结构自动生成项目文档 | [slunsford/coffee-analytics](https://github.com/slunsford/coffee-analytics) |
+| `/create-plan` | 生成完整的产品需求文档（PRD） | [hesreallyhim/inkverse-fork](https://github.com/hesreallyhim/inkverse-fork) |
+| `/prime` | 设置初始项目上下文（查看目录结构和关键文件） | [yzyydev/AI-Engineering-Structure](https://github.com/yzyydev/AI-Engineering-Structure) |
+
+---
+
+## 相关工作流与方法论
+
+| 项目 | 说明 |
+|------|------|
+| [RIPER Workflow](https://github.com/tony/claude-code-riper-5) | Research → Innovate → Plan → Execute → Review 五阶段工作流，含子 agent 和分支感知记忆 |
+| [AB Method](https://github.com/ayoubben18/ab-method) | 需求驱动的工作流，将大问题拆解为聚焦的增量任务，通过子 agent 执行 |
+| [Ralph Wiggum](https://github.com/frankbria/ralph-claude-code) | 自主 AI 开发循环框架，含退出检测、速率限制、熔断器、安全护栏 |
+
+## 后续可补充内容
+- Skill 设计模式与最佳实践
+- 不同任务场景下的 agent 工作流对比
+- Agent 自改进机制（self-reflection、error learning）相关 skills
+- 多 Agent 编排框架的 skills 生态整合
 
 ## 本页建议覆盖
 
