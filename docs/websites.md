@@ -59,8 +59,11 @@
   适合理解 Claude 在编码、写作、分析等任务中的提示词组织方式。
 - [OpenAI Cookbook](https://cookbook.openai.com/)  
   OpenAI 官方示例与最佳实践资料，适合参考 API 调用、工作流设计、工具使用和工程化样例。
+- [OpenAI Guides](https://platform.openai.com/docs/guides)  
+  OpenAI 官方指南集合，适合查看 prompt design、structured outputs、function calling、reasoning 等实际开发模式。
 - [GitHub Copilot Resources](https://resources.github.com/learn/pathways/copilot/)  
   适合查看真实开发场景中的 Copilot 使用方式、最佳实践和企业落地经验。
+
   
 ## 本页建议覆盖
 
